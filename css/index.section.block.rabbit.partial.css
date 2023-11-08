@@ -19,3 +19,17 @@
     font-size: 0.8rem;
     font-family: 'Poppins', sans-serif;
 }
+
+ul {
+    list-style-type: none; /* Убрать стандартный маркер */
+  }
+  
+  li::before {
+    content: ""; /* Добавить пустой элемент для установки картинки в качестве маркера */
+    display: inline-block; /* Сделать элемент блочным для установки размера и отступов */
+    width: 20px; /* Ширина картинки */
+    height: 24px; /* Высота картинки */
+    background-image: url('img/body/main/blocks/rabbit/heart.svg'); /* Укажите путь к вашей картинке */
+    background-size: contain; /* Размер картинки под контейнером */
+    margin-right: 10px; /* Отступ между картинкой и текстом */
+  }
