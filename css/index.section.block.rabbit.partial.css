@@ -6,8 +6,16 @@
 }
 
 .block-div__text-block {
-    color: rgb(4, 15, 115);
+    color: rgb(66, 72, 117);
     margin: 10;
-    font-size: 2rem;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.block-div__benefit-description {
+    color: rgb(106, 110, 143);
+    margin: 10;
+    font-size: 0.8rem;
     font-family: 'Poppins', sans-serif;
 }
