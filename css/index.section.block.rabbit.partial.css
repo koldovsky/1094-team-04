@@ -2,7 +2,9 @@
     color: var(--block-div__title-color);
     margin: 20;
     font-size: 2rem;
+    font-weight: bold;
     font-family: 'Rubik', sans-serif;
+
 }
 
 .block-div__text-block {

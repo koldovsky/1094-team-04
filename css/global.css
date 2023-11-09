@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-/* collor for blocks */
+/* collors for our blocks, you can use if you want... */
 :root { 
     --block-div__title-color: rgb(4, 15, 115); /* title-color */
     --block-div__text-block-color: rgb(66, 72, 117); /*text-block-color */
