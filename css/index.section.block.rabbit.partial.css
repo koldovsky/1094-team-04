@@ -1,22 +1,22 @@
 .block-div__title {
-    color: rgb(4, 15, 115);
+    color: var(--block-div__title-color);
     margin: 20;
     font-size: 2rem;
     font-family: 'Rubik', sans-serif;
 }
 
 .block-div__text-block {
-    color: rgb(66, 72, 117);
+    color: var(--block-div__text-block);
     margin: 10;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: 'Poppins', sans-serif;
 }
 
 
 .block-div__benefit-description {
-    color: rgb(106, 110, 143);
+    color: var(--block-div__benefit-description-color);
     margin: 10;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-family: 'Poppins', sans-serif;
 }
 
