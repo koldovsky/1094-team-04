@@ -6,7 +6,7 @@
 }
 
 .block-div__text-block {
-    color: var(--block-div__text-block);
+    color: var(--block-div__text-block-color);
     margin: 10;
     font-size: 1.2rem;
     font-family: 'Poppins', sans-serif;

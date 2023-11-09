@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik:wght@300&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-
+/*  */
+:root { 
+    --block-div__title-color: rgb(4, 15, 115); /* title-color */
+    --block-div__text-block-color: rgb(66, 72, 117); /*text-block-color */
+    --block-div__benefit-description-color: rgb(106, 110, 143); /* block-div__description-color*/
+}
 
 
 
