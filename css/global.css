@@ -1,8 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik:wght@300&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap'); */
+
 
 * {
     margin: 0;
@@ -11,6 +9,7 @@
 }
 
 :root {
+    scroll-behavior: smooth;
     --title-color: rgb(4, 15, 115);
     /* title-color */
     --text-block-color: rgb(66, 72, 117);
@@ -22,6 +21,11 @@
     --note-text: rgb(66, 72, 117);
     --bg-color: #fff6ed;
     background-color: var(--bg-color);
+}
+
+img {
+    display: block;
+    width: 100%;
 }
 
 .container {
