@@ -11,19 +11,32 @@
 }
 
 :root {
+    /* ==== vars ==== */
     --title-color: rgb(4, 15, 115);
-    /* title-color */
     --text-block-color: rgb(66, 72, 117);
-    /*text-block-color */
     --benefit-description-color: rgb(106, 110, 143);
-    /* block-div__description-color*/
     --note-text-highlighted: rgb(255, 91, 46);
     --note-symbol: rgb(255, 91, 46);
     --note-text: rgb(66, 72, 117);
     --bg-color: #fff6ed;
 
+    /* ==== button vars ==== */
+    --btn-bg-color: #ff5b2e;
+    --btn-bg-hover-color: #040f73;
+    --btn-color: #fff;
+    --btn-font-family: "Open Sans", sans-serif;
+
+    /* ==== global root properties ==== */
     scroll-behavior: smooth;
     background-color: var(--bg-color);
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
 }
 
 img {
@@ -41,3 +54,21 @@ img {
         padding: 0 15px;
     }
 }
+
+.btn {
+    background-color: var(--btn-bg-color);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: var(--btn-color);
+    font-family: var(--btn-font-family);
+    font-weight: 700;
+    padding: 16px 28px;
+    position: relative;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    top: 1px;
+    background-color: var(--btn-bg-hover-color);
+  }
