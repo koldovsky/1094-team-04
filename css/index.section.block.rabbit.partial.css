@@ -55,7 +55,7 @@ ul {
     display: inline-block; /* Зробити елемент блоковим для встановлення розміру та відступів */
     width: 20px; /* Ширина картинки */
     height: 24px; /* Висота картинки */
-    background-image: url('img/body/main/blocks/rabbit/heart.svg'); /* шлях до картинки */
+    background-image: url('../img/body/main/blocks/rabbit/heart.svg'); /* шлях до картинки */
     background-size: contain; /* розмір картинки під контейнером */
     margin-right: 10px; /* Відступ між картинкою та текстом */
   }
