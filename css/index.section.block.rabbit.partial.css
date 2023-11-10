@@ -1,7 +1,11 @@
+/* .block-div__image {
+    float: right;
+} */
+
 .block-div__title {
     color: var(--block-div__title-color);
     margin: 20;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     font-family: 'Rubik', sans-serif;
 
@@ -14,6 +18,26 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.block-div__note-text-highlighted {
+    color: var(--block-div__note-text-highlighted);
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
+
+.block-div__note-symbol{
+    color: var(--block-div__note-symbol);
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.block-div__note-text   {
+    color: var(--block-div__note-text);
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
+
 
 .block-div__benefit-description {
     color: var(--block-div__benefit-description-color);
@@ -23,15 +47,15 @@
 }
 
 ul {
-    list-style-type: none; /* Убрать стандартный маркер */
+    list-style-type: none; /* Прибрати стандартний маркер */
   }
   
   li::before {
-    content: ""; /* Добавить пустой элемент для установки картинки в качестве маркера */
-    display: inline-block; /* Сделать элемент блочным для установки размера и отступов */
+    content: ""; /* Додати порожній елемент для встановлення картинки як маркер */
+    display: inline-block; /* Зробити елемент блоковим для встановлення розміру та відступів */
     width: 20px; /* Ширина картинки */
-    height: 24px; /* Высота картинки */
-    background-image: url('img/body/main/blocks/rabbit/heart.svg'); /* Укажите путь к вашей картинке */
-    background-size: contain; /* Размер картинки под контейнером */
-    margin-right: 10px; /* Отступ между картинкой и текстом */
+    height: 24px; /* Висота картинки */
+    background-image: url('img/body/main/blocks/rabbit/heart.svg'); /* шлях до картинки */
+    background-size: contain; /* розмір картинки під контейнером */
+    margin-right: 10px; /* Відступ між картинкою та текстом */
   }

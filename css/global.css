@@ -1,5 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap'); */
 
 * {
     margin: 0;
@@ -7,11 +11,13 @@
     box-sizing: border-box;
 }
 
-/* collors for our blocks, you can use if you want... */
 :root { 
     --block-div__title-color: rgb(4, 15, 115); /* title-color */
     --block-div__text-block-color: rgb(66, 72, 117); /*text-block-color */
     --block-div__benefit-description-color: rgb(106, 110, 143); /* block-div__description-color*/
+    --block-div__note-text-highlighted: rgb(255, 91, 46);
+    --block-div__note-symbol: rgb(255, 91, 46);
+    --block-div__note-text: rgb(66, 72, 117);
 }
 
 
