@@ -10,14 +10,23 @@
     box-sizing: border-box;
 }
 
-:root { 
-    --title-color: rgb(4, 15, 115); /* title-color */
-    --text-block-color: rgb(66, 72, 117); /*text-block-color */
-    --benefit-description-color: rgb(106, 110, 143); /* block-div__description-color*/
+:root {
+    --title-color: rgb(4, 15, 115);
+    /* title-color */
+    --text-block-color: rgb(66, 72, 117);
+    /*text-block-color */
+    --benefit-description-color: rgb(106, 110, 143);
+    /* block-div__description-color*/
     --note-text-highlighted: rgb(255, 91, 46);
     --note-symbol: rgb(255, 91, 46);
     --note-text: rgb(66, 72, 117);
+    --bg-color: #fff6ed;
+    background-color: var(--bg-color);
 }
 
-
-
+.container {
+    max-width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
