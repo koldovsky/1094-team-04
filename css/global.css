@@ -20,17 +20,23 @@
     --note-symbol: rgb(255, 91, 46);
     --note-text: rgb(66, 72, 117);
     --bg-color: #fff6ed;
+
+    scroll-behavior: smooth;
     background-color: var(--bg-color);
 }
 
 img {
     display: block;
-    width: 100%;
+    max-width: 100%
 }
 
 .container {
-    max-width: 1230px;
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 100%;
+    padding: 0 24px;
     margin: 0 auto;
+
+    @media (min-width: 992px) {
+        max-width: 1230px;
+        padding: 0 15px;
+    }
 }
