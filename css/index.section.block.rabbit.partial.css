@@ -3,7 +3,7 @@
 } */
 
 .block-div__title {
-    color: var(--block-div__title-color);
+    color: var(--title-color);
     margin: 20;
     font-size: 2.5rem;
     font-weight: bold;
@@ -12,27 +12,27 @@
 }
 
 .block-div__text-block {
-    color: var(--block-div__text-block-color);
+    color: var(--text-block-color);
     margin: 10;
     font-size: 1.2rem;
     font-family: 'Poppins', sans-serif;
 }
 
 .block-div__note-text-highlighted {
-    color: var(--block-div__note-text-highlighted);
+    color: var(--note-text-highlighted);
     font-size: 0.9rem;
     font-family: 'Poppins', sans-serif;
     font-style: italic;
 }
 
 .block-div__note-symbol{
-    color: var(--block-div__note-symbol);
+    color: var(--note-symbol);
     font-size: 0.9rem;
     font-family: 'Poppins', sans-serif;
 }
 
 .block-div__note-text   {
-    color: var(--block-div__note-text);
+    color: var(--note-text);
     font-size: 0.9rem;
     font-family: 'Poppins', sans-serif;
     font-style: italic;
@@ -40,7 +40,7 @@
 
 
 .block-div__benefit-description {
-    color: var(--block-div__benefit-description-color);
+    color: var(--benefit-description-color);
     margin: 10;
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
@@ -50,12 +50,17 @@ ul {
     list-style-type: none; /* Прибрати стандартний маркер */
   }
   
-  li::before {
+  /* li::before {
     content: ""; /* Додати порожній елемент для встановлення картинки як маркер */
-    display: inline-block; /* Зробити елемент блоковим для встановлення розміру та відступів */
-    width: 20px; /* Ширина картинки */
-    height: 24px; /* Висота картинки */
-    background-image: url('../img/body/main/blocks/rabbit/heart.svg'); /* шлях до картинки */
-    background-size: contain; /* розмір картинки під контейнером */
-    margin-right: 10px; /* Відступ між картинкою та текстом */
-  }
+    /* display: inline-block; Зробити елемент блоковим для встановлення розміру та відступів */
+    /* width: 20px; Ширина картинки */
+    /* height: 24px; Висота картинки */
+    /* background-image: url('../img/body/main/blocks/rabbit/heart.svg'); шлях до картинки */
+    /* background-size: contain; розмір картинки під контейнером */
+    /* margin-right: 10px; Відступ між картинкою та текстом */
+  /* } */
+
+  .block-div__benefit_li-img {
+    position: relative;
+    top: 4px;
+  } 
