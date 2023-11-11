@@ -1,0 +1,53 @@
+.hero {
+    padding-top: 50px;
+}
+
+.hero__title {
+    font-family: var(--title-font);
+    font-size: 46px;
+    color: var(--title-color);
+    margin-bottom: 30px;
+}
+
+.hero__subtitle {
+    font-family: var(--text-block-font);
+    font-size: 19px;
+    color: var(--text-block-color);
+    margin-bottom: 30px;
+}
+
+.hero__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.hero__btn {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 33px;
+}
+
+.hero__btn svg {
+    width: 24px;
+    margin: auto 0;
+}
+
+.hero__call {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+.hero__content {
+    @media (min-width: 576px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+}

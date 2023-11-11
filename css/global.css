@@ -32,6 +32,8 @@
     /* ==== global root properties ==== */
     scroll-behavior: smooth;
     background-color: var(--bg-color);
+    font-size: 15px;
+    font-family: var(--btn-font-family);
 }
 
 a,
