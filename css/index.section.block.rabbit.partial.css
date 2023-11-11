@@ -2,21 +2,38 @@
     float: right;
 } */
 
+/* title block */
 .block-div__title {
+    margin-top: 20px;
+    margin-bottom: 20px;;
+}
+
+.block-div__title-text {
     color: var(--title-color);
-    margin: 20;
+    /* margin: 0px; */
     font-size: 2.5rem;
     font-weight: bold;
     font-family: 'Rubik', sans-serif;
 
 }
-
+/* 2 */
 .block-div__text-block {
     color: var(--text-block-color);
-    margin: 10;
+    /* margin: 0px; */
     font-size: 1.2rem;
     font-family: 'Poppins', sans-serif;
 }
+
+/* spisok */
+.block-div__benefits {
+    margin-top: 20px;
+}
+
+/* !!!! */
+.block-div__note {
+    margin-top: 20px;
+}
+
 
 .block-div__note-text-highlighted {
     color: var(--note-text-highlighted);
@@ -38,7 +55,6 @@
     font-style: italic;
 }
 
-
 .block-div__benefit-description {
     color: var(--benefit-description-color);
     margin: 10;
@@ -49,6 +65,12 @@
 ul {
     list-style-type: none; /* Прибрати стандартний маркер */
   }
+
+.block-div__benefit_li-img {
+    display: inline;
+    position: relative;
+    top: 4px;
+} 
   
   /* li::before {
     content: ""; /* Додати порожній елемент для встановлення картинки як маркер */
@@ -59,8 +81,3 @@ ul {
     /* background-size: contain; розмір картинки під контейнером */
     /* margin-right: 10px; Відступ між картинкою та текстом */
   /* } */
-
-  /* .block-div__benefit_li-img {
-    position: relative;
-    top: 4px;
-  }  */
