@@ -2,6 +2,14 @@
     float: right;
 } */
 
+.block-div__background {
+    background-color: var(--bg-color);
+}
+
+.block-div__content {
+    
+}
+
 /* title block */
 .block-div__title {
     margin-top: 20px;
@@ -11,9 +19,10 @@
 .block-div__title-text {
     color: var(--title-color);
     /* margin: 0px; */
-    font-size: 2.5rem;
+    font-size: var(--title-font-size);
     font-weight: bold;
-    font-family: 'Rubik', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+    font-family: var(--title-font);
 
 }
 /* 2 */
@@ -21,7 +30,8 @@
     color: var(--text-block-color);
     /* margin: 0px; */
     font-size: 1.2rem;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: var(--text-block-font);
 }
 
 /* spisok */
@@ -29,7 +39,7 @@
     margin-top: 20px;
 }
 
-/* !!!! */
+/* note */
 .block-div__note {
     margin-top: 20px;
 }

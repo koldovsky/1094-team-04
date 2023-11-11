@@ -22,6 +22,7 @@
     /* ==== fonts ==== */
     --text-block-font: 'Poppins', sans-serif;
     --title-font: 'Rubik', sans-serif;
+    --title-font-size: 2.5rem;
 
     /* ==== button vars ==== */
     --btn-bg-color: #ff5b2e;
