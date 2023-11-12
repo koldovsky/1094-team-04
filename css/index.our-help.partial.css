@@ -1,29 +1,61 @@
 .our-help__content {
-    display: flex;
-    justify-content: space-between;
+
+    align-items: center;
     background-color: var(--bg-color);
 }
+
+/* FLEX */
+/* .our-help__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-color);
+} */
+
+
+@media (max-width: 766px) {
+    .our-help__content {
+        align-items: center;
+        background-color: var(--bg-color);
+    }
+}
+
+
+/* GREED */
+@media (min-width: 767px) {
+    .our-help__content {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 60px;
+
+        align-items: center;
+        background-color: var(--bg-color);
+    }
+}
+
 
 /* title block */
 .our-help__title {
     margin-top: 20px;
-    margin-bottom: 20px;;
+    margin-bottom: 20px;
+    ;
 }
 
 .our-help__title-text {
     color: var(--title-color);
     /* margin: 0px; */
-    font-size: var(--title-font-size);
+    font-size: var(--fs-main-title);
     font-weight: bold;
     font-family: var(--title-font);
 
 }
+
 /* 2 */
 .our-help__text-block {
-    color: var(--text-block-color);
+    color: var(--dark-txt-color);
     /* margin: 0px; */
-    font-size: 1.3rem;
-    font-family: var(--text-block-font);
+    font-size: var(--fs-section-title);
+    font-family: var(--text-font);
 }
 
 /* spisok */
@@ -38,48 +70,49 @@
 
 
 .our-help__note-text-highlighted {
-    color: var(--note-text-highlighted);
+    color: var(--orange-color);
     font-size: 0.9rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--text-font);
     font-style: italic;
 }
 
 /* .our-help__note-symbol{
     color: var(--note-symbol);
     font-size: 0.9rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--text-font);
 } */
 
-.our-help__note-text   {
-    color: var(--note-text);
+.our-help__note-text {
+    color: var(--dark-txt-color);
     font-size: 0.9rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--text-font);
     font-style: italic;
 }
 
 .our-help__benefit-description {
-    color: var(--benefit-description-color);
+    color: var(--light-txt-color);
     margin: 10;
     font-size: 1.2rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--text-font);
 }
 
 ul {
-    list-style-type: none; /* Прибрати стандартний маркер */
-  }
+    list-style-type: none;
+    /* Прибрати стандартний маркер */
+}
 
 .our-help__benefit_li-img {
     display: inline;
     position: relative;
     top: 4px;
-} 
-  
-  /* li::before {
+}
+
+/* li::before {
     content: ""; /* Додати порожній елемент для встановлення картинки як маркер */
-    /* display: inline-block; Зробити елемент блоковим для встановлення розміру та відступів */
-    /* width: 20px; Ширина картинки */
-    /* height: 24px; Висота картинки */
-    /* background-image: url('../img/body/main/blocks/our-help/heart.svg'); шлях до картинки */
-    /* background-size: contain; розмір картинки під контейнером */
-    /* margin-right: 10px; Відступ між картинкою та текстом */
-  /* } */
+/* display: inline-block; Зробити елемент блоковим для встановлення розміру та відступів */
+/* width: 20px; Ширина картинки */
+/* height: 24px; Висота картинки */
+/* background-image: url('../img/body/main/blocks/our-help/heart.svg'); шлях до картинки */
+/* background-size: contain; розмір картинки під контейнером */
+/* margin-right: 10px; Відступ між картинкою та текстом */
+/* } */
