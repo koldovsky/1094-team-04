@@ -11,17 +11,20 @@
 :root {
     /* ==== colors ==== */
     --title-color: rgb(4, 15, 115);
-    --text-block-color: rgb(66, 72, 117);
-    --benefit-description-color: rgb(106, 110, 143);
-    --note-text-highlighted: rgb(255, 91, 46);
-    --note-symbol-hover: #e63200;
-    --note-text: rgb(66, 72, 117);
+    --dark-txt-color: rgb(66, 72, 117);
+    --light-txt-color: rgb(106, 110, 143);
+    --orange-color: rgb(255, 91, 46);
+    --orange-hover-color: rgb(230, 50, 0);
     --bg-color: #fff6ed;
 
     /* ==== fonts ==== */
-    --text-block-font: 'Poppins', sans-serif;
     --title-font: 'Rubik', sans-serif;
-    --title-font-size: 2.5rem;
+    --text-font: 'Poppins', sans-serif;
+ 
+    /* ==== font sizes ==== */
+    --fs-main-title: 46px;
+    --fs-section-title: 28px;
+    --fs-card-title: 22px; 
 
     /* ==== button vars ==== */
     --btn-bg-color: #ff5b2e;
@@ -49,6 +52,8 @@ img {
     max-width: 100%
 }
 
+/* ==== utility clsasses ==== */
+
 .container {
     max-width: 100%;
     padding: 0 24px;
@@ -73,7 +78,8 @@ img {
     text-align: center;
     transition: all 0.3s ease;
 }
+
 .btn:hover {
     top: 1px;
     background-color: var(--btn-bg-hover-color);
-  }
+}
