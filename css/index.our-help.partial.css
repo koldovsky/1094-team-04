@@ -12,26 +12,29 @@
     background-color: var(--bg-color);
 } */
 
+/* .our-help__content {
+    align-items: center;
+    background-color: var(--bg-color);
 
-@media (max-width: 766px) {
-    .our-help__content {
-        align-items: center;
-        background-color: var(--bg-color);
+    @media (min-width: 767px) {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 60px;
     }
-}
+} */
+
 
 
 /* GREED */
-@media (min-width: 767px) {
+/* @media (min-width: 767px) {
     .our-help__content {
         display: grid;
         grid-template-columns: auto auto;
         grid-column-gap: 60px;
-
         align-items: center;
         background-color: var(--bg-color);
     }
-}
+} */
 
 
 /* title block */
