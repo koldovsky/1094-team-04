@@ -1,35 +1,35 @@
-/* .rabbit__image {
+/* .our-help__image {
     float: right;
 } */
 
-/* .rabbit__background {
+/* .our-help__background {
     background-color: var(--bg-color);
 } */
 
-.rabbit__content {
+.our-help__content {
     display: flex;
     justify-content: space-between;
     background-color: var(--bg-color);
 }
 
 /* Pictures */
-/* .rabbit__image {
+/* .our-help__image {
     float: right;
     width: 50%;
 }
 
-.rabbit-content-text {
+.our-help-content-text {
     text-align: left;
     width: 50%;
 } */
 
 /* title block */
-.rabbit__title {
+.our-help__title {
     margin-top: 20px;
     margin-bottom: 20px;;
 }
 
-.rabbit__title-text {
+.our-help__title-text {
     color: var(--title-color);
     /* margin: 0px; */
     font-size: var(--title-font-size);
@@ -38,7 +38,7 @@
 
 }
 /* 2 */
-.rabbit__text-block {
+.our-help__text-block {
     color: var(--text-block-color);
     /* margin: 0px; */
     font-size: 1.3rem;
@@ -46,37 +46,37 @@
 }
 
 /* spisok */
-.rabbit__benefits {
+.our-help__benefits {
     margin-top: 20px;
 }
 
 /* note */
-.rabbit__note {
+.our-help__note {
     margin-top: 20px;
 }
 
 
-.rabbit__note-text-highlighted {
+.our-help__note-text-highlighted {
     color: var(--note-text-highlighted);
     font-size: 0.9rem;
     font-family: 'Poppins', sans-serif;
     font-style: italic;
 }
 
-/* .rabbit__note-symbol{
+/* .our-help__note-symbol{
     color: var(--note-symbol);
     font-size: 0.9rem;
     font-family: 'Poppins', sans-serif;
 } */
 
-.rabbit__note-text   {
+.our-help__note-text   {
     color: var(--note-text);
     font-size: 0.9rem;
     font-family: 'Poppins', sans-serif;
     font-style: italic;
 }
 
-.rabbit__benefit-description {
+.our-help__benefit-description {
     color: var(--benefit-description-color);
     margin: 10;
     font-size: 1.2rem;
@@ -87,7 +87,7 @@ ul {
     list-style-type: none; /* Прибрати стандартний маркер */
   }
 
-.rabbit__benefit_li-img {
+.our-help__benefit_li-img {
     display: inline;
     position: relative;
     top: 4px;
@@ -98,7 +98,7 @@ ul {
     /* display: inline-block; Зробити елемент блоковим для встановлення розміру та відступів */
     /* width: 20px; Ширина картинки */
     /* height: 24px; Висота картинки */
-    /* background-image: url('../img/body/main/blocks/rabbit/heart.svg'); шлях до картинки */
+    /* background-image: url('../img/body/main/blocks/our-help/heart.svg'); шлях до картинки */
     /* background-size: contain; розмір картинки під контейнером */
     /* margin-right: 10px; Відступ між картинкою та текстом */
   /* } */
