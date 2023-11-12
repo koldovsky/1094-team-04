@@ -63,11 +63,11 @@
     font-style: italic;
 }
 
-.rabbit__note-symbol{
+/* .rabbit__note-symbol{
     color: var(--note-symbol);
     font-size: 0.9rem;
     font-family: 'Poppins', sans-serif;
-}
+} */
 
 .rabbit__note-text   {
     color: var(--note-text);
