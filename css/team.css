@@ -1,0 +1,43 @@
+.team{
+    margin-left: 54.50px;
+    margin-right: 54.50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.team__members{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.member__job{
+    color: var(--note-symbol);
+    font-family: var(--title-font);
+    margin-top:20px;
+}
+.team__title{
+    color: var(--title-color);
+    font-family: var(--title-font);
+    font-size: var(--title-font-size);
+}
+.team__desc{
+    color: var(--note-text);
+    font-family: var(--title-font);
+}
+.member__name{
+    color: var(--title-color);
+    font-family: var(--title-font);
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+.member__name, .member__job, .team__desc, .team__title{
+    text-align: center;
+    position: relative;
+}
+.member__photo-box{
+    width: 400px;
+    height: 500px;
+}
