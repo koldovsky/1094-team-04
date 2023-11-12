@@ -1,27 +1,8 @@
-/* .our-help__image {
-    float: right;
-} */
-
-/* .our-help__background {
-    background-color: var(--bg-color);
-} */
-
 .our-help__content {
     display: flex;
     justify-content: space-between;
     background-color: var(--bg-color);
 }
-
-/* Pictures */
-/* .our-help__image {
-    float: right;
-    width: 50%;
-}
-
-.our-help-content-text {
-    text-align: left;
-    width: 50%;
-} */
 
 /* title block */
 .our-help__title {
