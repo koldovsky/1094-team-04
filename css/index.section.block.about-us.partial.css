@@ -7,7 +7,7 @@
     padding-bottom: 25px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 50px 120px;
+    grid-template-rows: 75px 120px;
     grid-template-areas:
         "title"
         "description";
@@ -50,11 +50,11 @@
     align-items: center;
     justify-items: center;
     grid-template-areas:
-        ". picture ."
-        ". name ."
-        ". underline ."
-        ". feedback ."
-        ". date .";
+        "picture"
+        "name"
+        "underline"
+        "feedback"
+        "date";
 }
 
 #about__jockie {
