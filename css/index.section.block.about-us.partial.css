@@ -24,8 +24,8 @@
 }
 
 .about__description {
-    color: var(--text-block-color);
-    font-family: var(--text-block-font);
+    color: var(--dark-txt-color);
+    font-family: var(--text-font);
     font-size: 19px;
     text-align: center;
     grid: description;
@@ -88,16 +88,16 @@
 }
 
 .about__feedback {
-    color: var(--benefit-description-color);
-    font-family: var(--text-block-font);
+    color: var(--light-txt-color);
+    font-family: var(--text-font);
     font-size: 17px;
     text-align: center;
     grid-area: feedback;
 }
 
 .about__date {
-    color: var(--note-text-highlighted);
-    font-family: var(--text-block-font);
+    color: var(--orange-color);
+    font-family: var(--text-font);
     font-size: 13px;
     grid-area: date;
 }
