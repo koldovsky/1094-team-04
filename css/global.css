@@ -68,8 +68,6 @@ img {
 /* Change container for mob or desctop resolution. For hero, rabbit, dog, FAQ containers */
 .container-change {
     align-items: center;
-    background-color: var(--bg-color);
-    /* ADD GREED */
     @media (min-width: 767px) {
         display: grid;
         grid-template-columns: auto auto;
