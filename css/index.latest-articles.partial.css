@@ -5,19 +5,23 @@
 
 .latest-articles__title-text {
     color: var(--title-color);
-    /* margin: 0px; */
     font-size: var(--fs-main-title);
     font-weight: bold;
     font-family: var(--title-font);
-
 }
 
-/* 2 */
 .latest-articles__text-block {
+    margin-bottom: 20px;
+}
+
+.latest-articles__text {
     color: var(--dark-txt-color);
-    /* margin: 0px; */
     font-size: var(--fs-section-title);
     font-family: var(--text-font);
+}
+
+.latest-articles__pic-info {
+    margin-top: 20px;
 }
 
 .latest-articles__pic-info-text {
@@ -52,22 +56,7 @@
     }
 }
 
-
-
-
-.our-help__benefits {
-    margin-top: 20px;
-}
-
-/* note */
-.our-help__note {
-    margin-top: 20px;
-}
-
-
-.our-help__note-text-highlighted {
-    color: var(--orange-color);
-    font-size: 0.9rem;
-    font-family: var(--text-font);
-    font-style: italic;
+.latest-articles__card-button {
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
