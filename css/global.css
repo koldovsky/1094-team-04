@@ -20,11 +20,11 @@
     /* ==== fonts ==== */
     --title-font: 'Rubik', sans-serif;
     --text-font: 'Poppins', sans-serif;
- 
+
     /* ==== font sizes ==== */
     --fs-main-title: 46px;
     --fs-section-title: 28px;
-    --fs-card-title: 22px; 
+    --fs-card-title: 22px;
 
     /* ==== button vars ==== */
     --btn-bg-color: #ff5b2e;
@@ -37,6 +37,7 @@
     background-color: var(--bg-color);
     font-size: 15px;
     font-family: var(--btn-font-family);
+    text-size-adjust: none;
 }
 
 a,
@@ -58,20 +59,40 @@ img {
     max-width: 100%;
     padding: 0 24px;
     margin: 0 auto;
+}
 
-    @media (min-width: 992px) {
+@media (min-width: 576px) {
+    .container {
+        max-width: 510px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 690px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 930px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
         max-width: 1230px;
-        padding: 0 15px;
     }
 }
 
 /* Change container for mob or desctop resolution. For rabbit, dog, FAQ containers */
 .container-change {
     align-items: center;
+
     @media (min-width: 767px) {
         display: grid;
         grid-template-columns: auto auto;
-        grid-column-gap: 60px; 
+        grid-column-gap: 60px;
     }
 }
 
@@ -93,4 +114,3 @@ img {
     top: 1px;
     background-color: var(--btn-bg-hover-color);
 }
-
