@@ -1,7 +1,7 @@
 .our-help__content {
 
     align-items: center;
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
 }
 
 /* FLEX */
@@ -41,7 +41,6 @@
 .our-help__title {
     margin-top: 20px;
     margin-bottom: 20px;
-    ;
 }
 
 .our-help__title-text {

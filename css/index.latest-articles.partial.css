@@ -1,0 +1,73 @@
+.latest-articles__title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.latest-articles__title-text {
+    color: var(--title-color);
+    /* margin: 0px; */
+    font-size: var(--fs-main-title);
+    font-weight: bold;
+    font-family: var(--title-font);
+
+}
+
+/* 2 */
+.latest-articles__text-block {
+    color: var(--dark-txt-color);
+    /* margin: 0px; */
+    font-size: var(--fs-section-title);
+    font-family: var(--text-font);
+}
+
+.latest-articles__pic-info-text {
+    /* margin-top: 20px; */
+    color: var(--orange-color);
+    font-size: 0.9rem;
+    font-family: var(--text-font);
+}
+
+.latest-articles__card-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--title-color);
+    font-size: var(--fs-section-title);
+    font-weight: bold;
+    font-family: var(--title-font);
+}
+
+.latest-articles__card-text {
+    color: var(--light-txt-color);
+    margin: 10;
+    font-size: 1.2rem;
+    font-family: var(--text-font);
+}
+
+.latest-articles__cards {
+    align-items: center;
+    @media (min-width: 767px) {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 60px; 
+    }
+}
+
+
+
+
+.our-help__benefits {
+    margin-top: 20px;
+}
+
+/* note */
+.our-help__note {
+    margin-top: 20px;
+}
+
+
+.our-help__note-text-highlighted {
+    color: var(--orange-color);
+    font-size: 0.9rem;
+    font-family: var(--text-font);
+    font-style: italic;
+}

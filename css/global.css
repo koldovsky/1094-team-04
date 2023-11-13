@@ -65,7 +65,7 @@ img {
     }
 }
 
-/* Change container for mob or desctop resolution. For hero, rabbit, dog, FAQ containers */
+/* Change container for mob or desctop resolution. For rabbit, dog, FAQ containers */
 .container-change {
     align-items: center;
     @media (min-width: 767px) {
