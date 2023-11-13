@@ -49,11 +49,19 @@
 
 .latest-articles__cards {
     align-items: center;
+    
     @media (min-width: 767px) {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 60px; 
+    }
+
+    @media (min-width: 991px) {
         display: grid;
         grid-template-columns: auto auto auto;
         grid-column-gap: 60px; 
     }
+
 }
 
 .latest-articles__card-button {
