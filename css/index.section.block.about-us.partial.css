@@ -65,7 +65,7 @@
 }
 
 .about__card {
-    grid-template-rows: 2fr 1fr 1fr 3fr 1fr;
+    grid-template-rows: 1fr 0.5fr 0.1fr 2fr 0.4fr;
     background-color: white;
     border-radius: 35px;
     display: grid;
@@ -115,7 +115,8 @@
     font-size: 17px;
     text-align: center;
     grid-area: feedback;
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .about__date {
