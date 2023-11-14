@@ -1,5 +1,7 @@
 .dog {
-    padding-top: 50px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .dog__title {
@@ -17,5 +19,7 @@
 }
 
 .dog__image {
-    width: 100%;
+   
+    display: block;
+     max-width: 100%;
 }
