@@ -2,5 +2,9 @@
 @import "header.css";
 @import "index.hero.css";
 @import "index.our-help.partial.css";
+@import "index.latest-articles.partial.css";
 @import "index.section.block.about-us.partial.css";
 @import "team.css";
+@import "index.block-dog.partial.css";
+@import "index.animal-cards.css";
+

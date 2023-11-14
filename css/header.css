@@ -43,14 +43,14 @@
 }
 
 .menu__item a {
-    color: var(--text-block-color);
-    font-family: var(--text-block-font);
+    color: var(--light-txt-color);
+    font-family: var(--text-font);
     transition: all 0.3s ease;
     position: relative;
 }
 
 .menu__item a:hover {
-    color: var(--note-symbol);
+    color: var(--orange-color);
 }
 
 .menu__item a::after {
@@ -60,7 +60,7 @@
     left: 0;
     width: 0px;
     height: 2px;
-    background-color: var(--note-symbol);
+    background-color: var(--orange-color);
     transition: all 0.3s ease;
 }
 
@@ -73,9 +73,9 @@
 }
 
 .social__icon svg {
-    fill: var(--note-symbol);
+    fill: var(--orange-color);
 }
 
 .social__icon svg:hover {
-    fill: var(--note-symbol-hover);
+    fill: var(--orange-hover-color);
 }

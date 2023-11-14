@@ -1,0 +1,22 @@
+.dog {
+    padding-top: 50px;
+}
+
+.dog__title {
+    font-family: var(--title-font);
+    font-size: var(--fs-main-title);
+    color: var(--title-color);
+    margin-bottom: 30px;
+}
+
+.dog__subtitle {
+    font-family: var(--text-font);
+    font-size: 19px;
+    color: var(--light-txt-color);
+    margin-bottom: 30px;
+}
+
+.dog__image {
+    width: 570px;
+    height: 706px;
+}
