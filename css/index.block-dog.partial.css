@@ -10,15 +10,17 @@
 }
 
 .dog__subtitle {
-    font-family: var(--text-font);
+    font-family: var(--title-font);
+    font-size: 19px;
+    color: var(--title-color);
+    margin-bottom: 30px;
+}
+.dog__description {
+    font-family: var(--title-font);
     font-size: 19px;
     color: var(--light-txt-color);
     margin-bottom: 30px;
 }
-
-.dog__btn {
-}
-
 
 .dog__image {
     width: 443px;
