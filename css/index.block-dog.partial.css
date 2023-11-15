@@ -1,5 +1,5 @@
 .dog {
-    padding-top: 50px;
+    align-items: center;
 }
 
 .dog__title {
@@ -10,13 +10,29 @@
 }
 
 .dog__subtitle {
-    font-family: var(--text-font);
+    font-family: var(--light-txt-color);
+    font-size: 19px;
+    color: var(--title-color);
+    margin-bottom: 30px;
+}
+
+.dog__info {
+    font-family: var(--title-font);
+    font-size: 19px;
+    color: var(--light-txt-color);
+    margin-bottom: 30px;
+}
+
+.dog__description {
+    font-family: var(--title-font);
     font-size: 19px;
     color: var(--light-txt-color);
     margin-bottom: 30px;
 }
 
 .dog__image {
-    width: 570px;
-    height: 706px;
+    width: 443px;
+    height: 548.69px;
+    display: block;
+    max-width: 100%;
 }

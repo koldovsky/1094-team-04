@@ -4,9 +4,6 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    flex-basis: 33.33333%;
-    max-width: 33.33333%;
-
 }
 .member__job{
     color: var(--note-symbol);

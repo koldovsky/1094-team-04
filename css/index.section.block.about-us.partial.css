@@ -51,12 +51,19 @@
     .container {
         max-width: none !important;
     }
+
+    .about__picture {
+        width: 120px !important;
+        height: 120px !important;
+    }
 }
 
 @media (min-width: 992px) {
     .about__card-container {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
+        grid-gap: 0px !important;
+        grid-column-gap: 40px !important;
     }
 
     .container {
@@ -65,10 +72,10 @@
 }
 
 .about__card {
-    grid-template-rows: 1fr 0.5fr 0.1fr 2fr 0.4fr;
     background-color: white;
     border-radius: 35px;
     display: grid;
+    grid-template-rows: 1.5fr 0.1fr 0.1fr 2fr 1fr;
     align-items: center;
     justify-items: center;
     grid-template-areas:
@@ -93,20 +100,18 @@
 
 .about__picture {
     grid-area: picture;
-    width: 70px;
-    height: 70px;
-    grid: 2 / 3;
+    width: 75px;
+    height: 75px;
+    margin: 10px;
 }
 
 .about__card .about__title {
     grid-area: name;
-    grid: 2 / 3;
     font-size: 24px;
 }
 
 .about__underscore {
     grid-area: underline;
-    grid: 2 / 3;
 }
 
 .about__feedback {
