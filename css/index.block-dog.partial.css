@@ -10,7 +10,7 @@
 }
 
 .dog__subtitle {
-    font-family: var(--title-font);
+    font-family: var(--light-txt-color);
     font-size: 19px;
     color: var(--title-color);
     margin-bottom: 30px;
