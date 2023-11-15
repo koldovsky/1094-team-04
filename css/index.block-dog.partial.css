@@ -17,16 +17,8 @@
 }
 
 .dog__btn {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 10px;
-
-    @media (min-width: 992px) {
-        flex-direction: row;
-        align-items: center;
-    }
 }
+
 
 .dog__image {
     width: 443px;
@@ -35,7 +27,7 @@
     max-width: 100%;
 }
 
-.hero__content {
+.dog__content {
     @media (min-width: 768px) {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
