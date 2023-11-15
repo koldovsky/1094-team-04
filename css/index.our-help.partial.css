@@ -10,31 +10,25 @@
 
 .our-help__title-text {
     color: var(--title-color);
-    /* margin: 0px; */
     font-size: var(--fs-main-title);
     font-weight: bold;
     font-family: var(--title-font);
 
 }
 
-/* 2 */
 .our-help__text-block {
     color: var(--dark-txt-color);
-    /* margin: 0px; */
     font-size: var(--fs-section-title);
     font-family: var(--text-font);
 }
 
-/* spisok */
 .our-help__benefits {
     margin-top: 20px;
 }
 
-/* note */
 .our-help__note {
     margin-top: 20px;
 }
-
 
 .our-help__note-text-highlighted {
     color: var(--orange-color);
@@ -58,7 +52,6 @@
 }
 
 ul {
-    /* Прибрати стандартний маркер */
     list-style-type: none;
 }
 
@@ -67,13 +60,3 @@ ul {
     position: relative;
     top: 4px;
 }
-
-/* li::before {
-    content: ""; /* Додати порожній елемент для встановлення картинки як маркер */
-/* display: inline-block; Зробити елемент блоковим для встановлення розміру та відступів */
-/* width: 20px; Ширина картинки */
-/* height: 24px; Висота картинки */
-/* background-image: url('../img/body/main/blocks/our-help/heart.svg'); шлях до картинки */
-/* background-size: contain; розмір картинки під контейнером */
-/* margin-right: 10px; Відступ між картинкою та текстом */
-/* } */
