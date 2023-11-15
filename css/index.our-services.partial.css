@@ -4,6 +4,7 @@
 }
 
 .services__title-text {
+    margin-top: 80px;
     color: var(--title-color);
     font-size: var(--fs-main-title);
     font-weight: bold;
@@ -13,13 +14,13 @@
 
 
 .services__description {
-    margin-bottom: 20px;
+    margin: 40px;
     text-align: center;
 }
 
 .services__description-text {
     color: var(--dark-txt-color);
-    font-size: var(--fs-section-title);
+    font-size: 19px;
     font-family: var(--text-font);
 }
 
