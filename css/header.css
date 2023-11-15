@@ -5,12 +5,14 @@
 
 .header__burger-menu {
     display: none;
+
     @media (min-width: 992px) {}
 }
 
 .header__logo {
     position: relative;
     margin-bottom: 20px;
+
     @media (min-width: 992px) {
         margin-bottom: 0px;
     }
@@ -33,13 +35,17 @@
 .header__menu {
     text-align: center;
     margin-bottom: 20px;
-    @media (min-width: 992px) {
+}
+
+@media (min-width: 992px) {
+    .header__menu {
         display: flex;
         gap: 30px;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 0px;
     }
+
 }
 
 .menu__item a {
@@ -65,7 +71,7 @@
 }
 
 .menu__item a:hover::after {
-    width: 33px;
+    width: 100%;
 }
 
 .header__social {
