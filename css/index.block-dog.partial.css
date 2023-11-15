@@ -42,7 +42,7 @@
     font-family: var(--title-font);
     font-size: 19px;
     color: var(--light-txt-color);
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .dog__image {
@@ -50,4 +50,8 @@
     height: 548.69px;
     display: block;
     max-width: 100%;
+}
+
+.dog__button {
+    display: flex;
 }
