@@ -15,6 +15,14 @@
     color: var(--title-color);
     margin-bottom: 30px;
 }
+
+.dog__info {
+    font-family: var(--title-font);
+    font-size: 19px;
+    color: var(--light-txt-color);
+    margin-bottom: 30px;
+}
+
 .dog__description {
     font-family: var(--title-font);
     font-size: 19px;
@@ -27,12 +35,4 @@
     height: 548.69px;
     display: block;
     max-width: 100%;
-}
-
-.dog__content {
-    @media (min-width: 768px) {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-    }
 }
