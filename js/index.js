@@ -1,11 +1,23 @@
-addEventListener('DOMContentLoaded', (event) => {
-    const burgerBtn = document.querySelector('.header__burger-btn');
+// ==== Burger menu ====
+
+document.addEventListener('DOMContentLoaded', function () {
+    const burgerBtn = document.getElementById('burger-btn');
     const menu = document.querySelector('.header__menu');
 
-    burgerBtn.addEventListener('click', () => {
-        burgerBtn.classList.toggle('_active');
-        menu.classList.toggle('_active');
-        console.log('it works');
-    });
-});
+    if (burgerBtn) {
+        const toggleActiveClasses = () => {
+            burgerBtn.classList.toggle('active');
+            menu.classList.toggle('active');
+        };
 
+        const handleBurgerClick = () => {
+            toggleActiveClasses();
+        };
+
+        burgerBtn.addEventListener('click', handleBurgerClick);
+    }
+
+    if (!burgerBtn) {
+        console.log("no burgerBtn");
+    }
+})
