@@ -159,6 +159,7 @@
 @media (min-width: 992px) {
     .header__social.desk {
         display: flex;
+        gap: 5px;
     }
 
     .menu__item.mob {
