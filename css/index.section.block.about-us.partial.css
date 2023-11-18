@@ -122,6 +122,7 @@
     grid-area: feedback;
     padding-left: 15px;
     padding-right: 15px;
+    word-spacing: 4px;
 }
 
 .about__date {
