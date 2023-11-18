@@ -24,9 +24,9 @@ function litres(time) {
     return Math.floor(time * 0.5);
 }
 
-function lovefunc(flower1, flower2){
-    if (((flower1 % 2 === 0) && (flower2 % 2 != 0)) || ((flower1 % 2 != 0) && (flower2 % 2 === 0))) {
+function lovefunc(flower1, flower2) {
+    if (flower1 % 2 != flower2 % 2) {
         return true;
     }
     return false;
-  }
+}
