@@ -16,6 +16,12 @@
     --orange-color: rgb(255, 91, 46);
     --orange-hover-color: rgb(230, 50, 0);
     --bg-color: #fff6ed;
+    --card-bg-color: #fff;
+
+    /* ==== pet icon colors ==== */
+    --icon-blue: rgb(144, 204, 255);
+    --icon-red: #ff5b2e;
+    --icon-yellow: rgb(250, 191, 62);
 
     /* ==== fonts ==== */
     --title-font: 'Rubik', sans-serif;
@@ -53,12 +59,12 @@ img {
     max-width: 100%
 }
 
-/* ==== utility clsasses ==== */
+/* ==== utility classes ==== */
 
 .container {
     max-width: 100%;
-    padding: 0 24px;
-    margin: 0 auto;
+    padding-inline: 24px;
+    margin-inline: auto;
 }
 
 @media (min-width: 576px) {
@@ -85,7 +91,6 @@ img {
     }
 }
 
-/* Change container for mob or desctop resolution. For rabbit, dog, FAQ containers */
 .container-change {
     align-items: center;
 
@@ -113,4 +118,9 @@ img {
 .btn:hover {
     top: 1px;
     background-color: var(--btn-bg-hover-color);
+}
+
+.fixed {
+    width: 100%;
+    position: fixed;
 }
