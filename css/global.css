@@ -119,3 +119,8 @@ img {
     top: 1px;
     background-color: var(--btn-bg-hover-color);
 }
+
+.fixed {
+    width: 100%;
+    position: fixed;
+}

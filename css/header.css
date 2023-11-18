@@ -23,9 +23,9 @@
 .header__burger-btn::after {
     left: 0;
     position: absolute;
-    height: 3px;
+    height: 2px;
     width: 100%;
-    transition: all 0.3s ease;
+    transition: all 0.4s ease;
     background-color: var(--title-color);
 }
 
