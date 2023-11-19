@@ -3,7 +3,7 @@
     padding-bottom: 60px;
 }
 
-.animal-cards__carousel-item {
+.animal-cards__carousel-item.swiper-slide {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -11,15 +11,26 @@
     background-color: var(--card-bg-color);
     padding: 30px;
     border-radius: 10px;
+    aspect-ratio: 1 / 1.25;
 }
 
 .animal-cards__carousel-icon-box {
-    flex: 1 1 auto;
     width: 50px;
     height: 50px;
     padding: 10px;
     border-radius: 50%;
+}
+
+.animal-cards__carousel-icon-box.primary {
     background-color: var(--icon-blue);
+}
+
+.animal-cards__carousel-icon-box.secondary {
+    background-color: var(--icon-red);
+}
+
+.animal-cards__carousel-icon-box.tertiary {
+    background-color: var(--icon-yellow);
 }
 
 .animal-cards__carousel-icon {
@@ -43,6 +54,7 @@
     font-family: var(--text-font);
     font-size: 17px;
     color: var(--light-txt-color);
+    flex-grow: 1;
 }
 
 .animal-cards__carousel-more {
@@ -58,6 +70,27 @@
 .animal-cards__carousel-arrow {
     width: 24px;
 }
+
 .animal-cards__carousel-arrow img {
     width: 100%;
+}
+
+.animal-cards__container {
+    position: relative;
+    padding-inline: 50px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    position: absolute;
+    top: var(--swiper-navigation-top-offset, 50%);
+    width: calc(var(--swiper-navigation-size)/ 44 * 27);
+    height: var(--swiper-navigation-size);
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--title-color);
 }
