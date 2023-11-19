@@ -9,6 +9,18 @@
     margin-bottom: 30px;
 }
 
+@media screen and (min-width: 768px) {
+    .hero__title {
+        font-size: var(--fs-main-title-md);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .hero__title {
+        font-size: var(--fs-main-title-lg);
+    }
+}
+
 .hero__subtitle {
     font-family: var(--text-font);
     font-size: 19px;

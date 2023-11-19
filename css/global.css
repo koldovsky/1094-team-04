@@ -29,6 +29,8 @@
 
     /* ==== font sizes ==== */
     --fs-main-title: 46px;
+    --fs-main-title-md: 58px;
+    --fs-main-title-lg: 62px;
     --fs-section-title: 28px;
     --fs-card-title: 22px;
 
