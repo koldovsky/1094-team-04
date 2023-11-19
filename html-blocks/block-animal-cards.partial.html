@@ -1,10 +1,10 @@
 <!-- Arsenii Danylenko -->
 <section class="animal-cards">
     <div class="animal-cards__container container">
-        <div class="animal-cards__carousel carousel slide">
-            <div class="animal-cards__carousel-inner carousel-inner">
-                <div class="animal-cards__carousel-item carousel-item active">
-                    <div class="animal-cards__carousel-icon-box">
+        <div class="animal-cards__carousel swiper">
+            <div class="animal-cards__carousel-inner swiper-wrapper">
+                <div class="animal-cards__carousel-item swiper-slide" data-swiper-slide-index="1">
+                    <div class="animal-cards__carousel-icon-box primary">
                         <img src="img/animal-cards/cat-icon.svg" class="animal-cards__carousel-icon"
                             alt="Cat symbolic icon">
                     </div>
@@ -13,21 +13,83 @@
                     <p class="animal-cards__carousel-text">Your cat will purr with pleasure in our hands.</p>
                     <a href="#" class="animal-cards__carousel-more">
                         <p>Learn more</p>
-                        <span class="animal-cards__carousel-arrow"><img src="img/animal-cards/animal-card-arrow.svg" alt="Arrow link"></span>
+                        <span class="animal-cards__carousel-arrow"><img src="img/animal-cards/animal-card-arrow.svg"
+                                alt="Arrow link"></span>
                     </a>
                 </div>
-
+                <div class="animal-cards__carousel-item swiper-slide" data-swiper-slide-index="2">
+                    <div class="animal-cards__carousel-icon-box secondary">
+                        <img src="img/animal-cards/dog-icon.svg" class="animal-cards__carousel-icon"
+                            alt="Dog symbolic icon">
+                    </div>
+                    <h4 class="animal-cards__carousel-title">Dogs</h4>
+                    <span class="animal-cards__carousel-divider"></span>
+                    <p class="animal-cards__carousel-text">Tasty food, running, and playing with your dog.</p>
+                    <a href="#" class="animal-cards__carousel-more">
+                        <p>Learn more</p>
+                        <span class="animal-cards__carousel-arrow"><img src="img/animal-cards/animal-card-arrow.svg"
+                                alt="Arrow link"></span>
+                    </a>
+                </div>
+                <div class="animal-cards__carousel-item swiper-slide" data-swiper-slide-index="3">
+                    <div class="animal-cards__carousel-icon-box tertiary">
+                        <img src="img/animal-cards/rabbit-icon.svg" class="animal-cards__carousel-icon"
+                            alt="Rabbit symbolic icon">
+                    </div>
+                    <h4 class="animal-cards__carousel-title">Rabbits</h4>
+                    <span class="animal-cards__carousel-divider"></span>
+                    <p class="animal-cards__carousel-text">We will look after your favorite ball of fur.</p>
+                    <a href="#" class="animal-cards__carousel-more">
+                        <p>Learn more</p>
+                        <span class="animal-cards__carousel-arrow"><img src="img/animal-cards/animal-card-arrow.svg"
+                                alt="Arrow link"></span>
+                    </a>
+                </div>
+                <div class="animal-cards__carousel-item swiper-slide" data-swiper-slide-index="4">
+                    <div class="animal-cards__carousel-icon-box primary">
+                        <img src="img/animal-cards/fish-icon.svg" class="animal-cards__carousel-icon"
+                            alt="Fish symbolic icon">
+                    </div>
+                    <h4 class="animal-cards__carousel-title">Fish</h4>
+                    <span class="animal-cards__carousel-divider"></span>
+                    <p class="animal-cards__carousel-text">The inhabitants of your aquarium will be happy.</p>
+                    <a href="#" class="animal-cards__carousel-more">
+                        <p>Learn more</p>
+                        <span class="animal-cards__carousel-arrow"><img src="img/animal-cards/animal-card-arrow.svg"
+                                alt="Arrow link"></span>
+                    </a>
+                </div>
+                <div class="animal-cards__carousel-item swiper-slide" data-swiper-slide-index="5">
+                    <div class="animal-cards__carousel-icon-box secondary">
+                        <img src="img/animal-cards/turtle-icon.svg" class="animal-cards__carousel-icon"
+                            alt="Turtle symbolic icon">
+                    </div>
+                    <h4 class="animal-cards__carousel-title">Turtles</h4>
+                    <span class="animal-cards__carousel-divider"></span>
+                    <p class="animal-cards__carousel-text">Your cold-blooded pets will stay healthy.</p>
+                    <a href="#" class="animal-cards__carousel-more">
+                        <p>Learn more</p>
+                        <span class="animal-cards__carousel-arrow"><img src="img/animal-cards/animal-card-arrow.svg"
+                                alt="Arrow link"></span>
+                    </a>
+                </div>
+                <div class="animal-cards__carousel-item swiper-slide" data-swiper-slide-index="6">
+                    <div class="animal-cards__carousel-icon-box tertiary">
+                        <img src="img/animal-cards/bird-icon.svg" class="animal-cards__carousel-icon"
+                            alt="Bird symbolic icon">
+                    </div>
+                    <h4 class="animal-cards__carousel-title">Birds</h4>
+                    <span class="animal-cards__carousel-divider"></span>
+                    <p class="animal-cards__carousel-text">We will feed your birds, clean the cage, etc.</p>
+                    <a href="#" class="animal-cards__carousel-more">
+                        <p>Learn more</p>
+                        <span class="animal-cards__carousel-arrow"><img src="img/animal-cards/animal-card-arrow.svg"
+                                alt="Arrow link"></span>
+                    </a>
+                </div>
             </div>
-            <button class="animal-cards__carousel-btn-prev carousel-control-prev" type="button"
-                data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="animal-cards__carousel-btn-next carousel-control-next" type="button"
-                data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
+        <div class="animal-cards__carousel-btn-prev swiper-button-prev"></div>
+        <div class="animal-cards__carousel-btn-next swiper-button-next"></div>
     </div>
 </section>

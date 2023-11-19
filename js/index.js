@@ -1,5 +1,6 @@
-// ==== Burger menu ====
 document.addEventListener("partialsLoaded", () => {
+
+    // ==== Burger menu ====
     const body = document.querySelector('body');
     const burgerBtn = document.querySelector('.header__burger-btn');
     const menu = document.querySelector('.header__menu');
@@ -26,5 +27,27 @@ document.addEventListener("partialsLoaded", () => {
             body.classList.remove('fixed');
         })
     }
+
+    // ==== Initializing Swiper carousel ====
+    const swiper = new Swiper('.animal-cards__carousel', {
+        direction: 'horizontal',
+        loop: true,
+        speed: 400,
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+        spaceBetween: 30,
+        breakpoints: {
+            576: {
+                slidesPerView: 2
+            },
+            992: {
+                slidesPerView: 4
+            }
+        },
+        navigation: {
+            prevEl: '.animal-cards__carousel-btn-prev',
+            nextEl: '.animal-cards__carousel-btn-next',
+        },
+    });
 });
 
