@@ -33,6 +33,7 @@
     flex-direction: column;
     align-items: start;
     gap: 10px;
+
     @media (min-width: 992px) {
         flex-direction: row;
         align-items: center;
@@ -60,8 +61,8 @@
     font-weight: 700;
 }
 
-.hero__content {
-    @media (min-width: 768px) {
+@media (min-width: 768px) {
+    .hero__content {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
