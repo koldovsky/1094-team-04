@@ -1,21 +1,24 @@
-
+@media (min-width: 320px) {
 .team__members{
-    position: relative;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
 }
 .member__job{
     color: var(--note-symbol);
     font-family: var(--title-font);
+    color: var(--orange-color);
 }
 .team__title{
     color: var(--title-color);
     font-family: var(--title-font);
-    font-size: var(--title-font-size);
+    font-size: var(--fs-main-title);
 }
 .team__desc{
-    color: var(--note-text);
-    font-family: var(--title-font);
+    color: var(--dark-txt-color);
+    font-family: var(--text-font);
+    font-size: 19px;
+    text-align: center;
 }
 .member__name{
     color: var(--title-color);
@@ -25,4 +28,5 @@
 .member__name, .member__job, .team__desc, .team__title{
     position: relative;
     text-align: center;
+    padding-top: 0.9rem;
 }
