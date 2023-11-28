@@ -69,6 +69,7 @@
     color: var(--light-txt-color);
     font-family: var(--text-font);
     font-size: 17px;
+    display: none;
 }
 
 .questions__container {
