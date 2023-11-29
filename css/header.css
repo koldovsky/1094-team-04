@@ -4,7 +4,7 @@
 }
 
 .header__burger-btn {
-    z-index: 5;
+    z-index: 21;
     display: block;
     position: relative;
     width: 30px;
@@ -84,7 +84,7 @@
 
 .header__menu {
     position: fixed;
-    z-index: 4;
+    z-index: 20;
     left: 101%;
     top: 0;
     width: 100%;
