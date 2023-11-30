@@ -72,11 +72,16 @@
     display: none;
 }
 
+.faq-answer.active {
+    display: block;
+}
+
 .questions__container {
     display: grid;
     grid-template-rows: 0.5fr, 1fr;
     grid-row-gap: 10px;
     margin-top: 20px;
+    max-width: 490px;
 }
 
 .faq-border {
@@ -106,8 +111,13 @@
     justify-content: space-between;
 }
 
-.faq-button__vline,
-.faq-button__hline {
+.faq-button__hline,
+.faq-button__vline {
     color: var(--title-color);
     stroke-width: 3px;
+    display: block;
+}
+
+.faq-button__vline.active{
+    display: none;
 }

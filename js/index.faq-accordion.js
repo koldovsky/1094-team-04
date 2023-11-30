@@ -1,14 +1,16 @@
-const faqButton = document.querySelector('.faq-button');
-const faqAnswer = document.querySelector('.faq-answer')
-const faqLineVertical = document.querySelector('.faq-button__vline');
-const faqLiveHorizontal = document.querySelector('.faq-button__hline');
+const faqButtons = document.querySelectorAll('.faq-button');
+const faqAnswers = document.querySelectorAll('.faq-answer');
+const faqLineVertical = document.querySelectorAll('.faq-button__vline');
 
-faqButton.addEventListener("click", function () {
-    faqAnswer.style.display = "block"
-    const panel = faqAnswer.nextElementSibling;
-    if (panel.style.display === "block") {
-        panel.style.display = "none";
-    } else {
-        panel.style.display = "block";
-    }
-});
+for (let i = 0; i < faqButtons.length; i++) {
+    faqButtons[i].addEventListener("click", function () {
+        for (let j = 0; j < faqButtons.length; j++) {
+            if (j !== i) {
+                faqLineVertical[j].classList.remove("active");
+                faqAnswers[j].classList.remove("active");
+            }
+        }
+        faqLineVertical[i].classList.toggle("active");
+        faqAnswers[i].classList.toggle("active");
+    });
+}
