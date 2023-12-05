@@ -1,4 +1,4 @@
-const swiper = new Swiper('.brand-cards__carousel', {
+const swiper_brand = new Swiper('.brand-cards__carousel', {
     direction: 'horizontal',
     loop: true,
     speed: 400,
@@ -6,11 +6,14 @@ const swiper = new Swiper('.brand-cards__carousel', {
     slidesPerGroup: 1,
     spaceBetween: 30,
     breakpoints: {
-        576: {
+        479: {
             slidesPerView: 2
         },
+        767: {
+            slidesPerView: 3
+        },
         992: {
-            slidesPerView: 4
+            slidesPerView: 5
         }
     },
     navigation: {
