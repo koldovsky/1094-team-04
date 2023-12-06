@@ -1,0 +1,108 @@
+.questions__container .grid {
+    display: grid;
+}
+
+@media (min-width: 768px) {
+    .questions__container .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 24px;
+    }
+}
+
+.questions__title {
+    font-family: var(--title-font);
+    font-size: var(--fs-main-title);
+    color: var(--title-color);
+    margin-bottom: 30px;
+}
+
+.questions__subtitle {
+    font-family: var(--text-font);
+    font-size: 19px;
+    color: var(--light-txt-color);
+    margin-bottom: 30px;
+}
+
+.questions__container ul {
+    list-style: none;
+}
+
+.questions__container ul li {
+    border-bottom: 1px solid #ddd;
+}
+
+.questions__container .accordion-item {
+    padding: 20px 0;
+}
+
+.questions__container .accordion-header {
+    cursor: pointer;
+
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+
+}
+
+.questions__container .accordion-header p {
+    cursor: pointer;
+
+    font-family: var(--title-font);
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--title-color);
+}
+
+.questions__container .accordion-header .accordion__icon {
+    position: relative;
+    height: 15px;
+    width: 15px;
+    -webkit-flex-basis: 15px;
+    -ms-flex-preferred-size: 15px;
+    flex-basis: 15px;
+    margin-left: 10px;
+    opacity: .8
+}
+
+.questions__container .accordion-header .accordion__icon::before,
+.questions__container .accordion-header .accordion__icon::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    border-radius: 3px;
+    background-color: var(--title-color);
+}
+
+.questions__container .accordion-header .accordion__icon::after {
+    width: 100%;
+    height: 2px;
+}
+
+.questions__container .accordion-header .accordion__icon::before {
+    width: 2px;
+    height: 100%;
+    -webkit-transition: height .3s ease;
+    transition: height .3s ease
+}
+
+.questions__container .accordion-header.active .accordion__icon::before {
+    height: 0;
+}
+
+
+.questions__container .accordion-content {
+    display: none;
+    margin-top: 20px;
+
+    font-family: var(--title-font);
+    font-size: 19px;
+    color: var(--light-txt-color);
+}
+
+.questions__container .accordion-content.active {
+    display: block;
+    animation: fadein 2s;
+}
