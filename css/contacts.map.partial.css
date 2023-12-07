@@ -1,0 +1,47 @@
+.contacts {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.contacts__contact-info {
+    position: absolute;
+    display: block;
+    background-color: white;
+    padding: 50px;
+    border-radius: 50px;
+    text-align: center;
+    top: 150px;
+
+    @media (max-width: 991px) {
+        left: 20%;
+    }
+
+    @media (min-width: 992px) {
+        right: 20%;
+    }
+
+}
+
+.contacts__title {
+    color: var(--title-color);
+    font-size: var(--fs-main-title);
+    font-weight: bold;
+    font-family: var(--title-font);
+}
+
+.contacts__address,
+.contacts__worck-time,
+.contacts__email,
+.contacts__phone {
+    color: var(--light-txt-color);
+    margin: 10;
+    font-size: 1.2rem;
+    font-family: var(--text-font);
+}
+
+p,
+a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
