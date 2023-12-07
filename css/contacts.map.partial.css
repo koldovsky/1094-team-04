@@ -45,3 +45,7 @@ a {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+iframe {
+    filter: grayscale(100%); 
+}
